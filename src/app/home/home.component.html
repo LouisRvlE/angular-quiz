@@ -2,7 +2,13 @@
   <h2 class="home_title">Bienvenu sur ce quiz</h2>
   <p class="home_presentation mb-5">Ce quiz a pour but éducatif</p>
 
-  <p class="text-center">Connecté en tant que {{ name }}</p>
+  <p class="text-center" *ngIf="name !== 'Anonymous'">
+    Connecté en tant que {{ name }}
+  </p>
+  <p class="text-center" *ngIf="name === 'Anonymous'">
+    Vous êtes connecté en tant qu'Anonyme, vous pouvez commencer le quiz ou
+    consulter les catégories
+  </p>
   <p class="text-center">
     Vous pouvez commencer le quiz ou consulter les catégories
   </p>
