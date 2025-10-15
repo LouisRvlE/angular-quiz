@@ -6,14 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { QuizComponent } from "./quiz/quiz.component";
-import { provideHttpClient } from "@angular/common/http";
+import { QuizComponent } from './quiz/quiz.component';
+import { provideHttpClient } from '@angular/common/http';
 import { ResultComponent } from './quiz/result/result.component';
 import { QuestionComponent } from './quiz/question/question.component';
 import { AnswerComponent } from './quiz/answer/answer.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RegisterComponent } from './auth/register/register.component';
 import { LoginComponent } from './auth/login/login.component';
+import { CategoriesComponent } from './categories/categories.component';
 
 @NgModule({
   declarations: [
@@ -26,15 +27,11 @@ import { LoginComponent } from './auth/login/login.component';
     QuestionComponent,
     AnswerComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    CategoriesComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule,
-    ReactiveFormsModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule],
   providers: [provideHttpClient()],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule {}

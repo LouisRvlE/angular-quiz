@@ -1,0 +1,51 @@
+<section class="categories">
+  <h2 class="categories_title">Catégories</h2>
+  <p class="categories_presentation">
+    Sélectionnez une catégorie pour commencer le quiz.
+  </p>
+  <div class="categories_search flex justify-center items-center gap-2 mt-4">
+    <input
+      type="text"
+      placeholder="Rechercher une catégorie"
+      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5"
+      [formControl]="searchControl"
+    />
+    <button class="btn--icon" (click)="clearSearch()">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 11-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </button>
+    <button class="btn--icon" (click)="filterCategories()">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+      >
+        <path
+          d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z"
+        />
+      </svg>
+    </button>
+  </div>
+  <div class="categories_list flex flex-wrap gap-4 justify-center mt-4">
+    <div class="categories_item" *ngFor="let category of filteredCategories">
+      <button
+        class="bg-violet-400 hover:bg-violet-600 text-white font-bold py-2 px-4 rounded"
+        (click)="navigateToQuiz(category.name)"
+      >
+        {{ category.name }}
+      </button>
+    </div>
+  </div>
+  <div *ngIf="isLoading" class="loading_spinner">
+    <p>Chargement des catégories...</p>
+  </div>
+</section>
