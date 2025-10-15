@@ -2,83 +2,178 @@
   "questions": [
     {
       "id": 1,
-      "questionLabel": "What is a component in Angular?"
+      "questionLabel": "What is a component in Angular?",
+      "category": "ANGULAR"
     },
     {
       "id": 2,
-      "questionLabel": "Explain the purpose of the NgModule in Angular."
+      "questionLabel": "Explain the purpose of the NgModule in Angular.",
+      "category": "ANGULAR"
     },
     {
       "id": 3,
-      "questionLabel": "How do you create a new Angular application?"
+      "questionLabel": "How do you create a new Angular application?",
+      "category": "ANGULAR"
     },
     {
       "id": 4,
-      "questionLabel": "What is data binding in Angular, and what are the different types of data binding?"
+      "questionLabel": "What is data binding in Angular, and what are the different types of data binding?",
+      "category": "ANGULAR"
     },
     {
       "id": 5,
-      "questionLabel": "Explain the difference between {{}} (interpolation) and [property] (property binding) in Angular templates."
+      "questionLabel": "Explain the difference between {{}} (interpolation) and [property] (property binding) in Angular templates.",
+      "category": "ANGULAR"
     },
     {
       "id": 6,
-      "questionLabel": "What is event binding in Angular, and how is it implemented?"
+      "questionLabel": "What is event binding in Angular, and how is it implemented?",
+      "category": "ANGULAR"
     },
     {
       "id": 7,
-      "questionLabel": "What is Angular CLI, and how do you use it to generate components?"
+      "questionLabel": "What is Angular CLI, and how do you use it to generate components?",
+      "category": "ANGULAR"
     },
     {
       "id": 8,
-      "questionLabel": "What is a directive in Angular? Can you name some built-in directives?"
+      "questionLabel": "What is a directive in Angular? Can you name some built-in directives?",
+      "category": "ANGULAR"
     },
     {
       "id": 9,
-      "questionLabel": "Explain the purpose of the Angular router and how to configure routes in an Angular application."
+      "questionLabel": "Explain the purpose of the Angular router and how to configure routes in an Angular application.",
+      "category": "ANGULAR"
     },
     {
       "id": 10,
-      "questionLabel": "What is dependency injection in Angular, and why is it important?"
+      "questionLabel": "What is dependency injection in Angular, and why is it important?",
+      "category": "ANGULAR"
     },
     {
       "id": 11,
-      "questionLabel": "How do you communicate between parent and child components in Angular?"
+      "questionLabel": "How do you communicate between parent and child components in Angular?",
+      "category": "ANGULAR"
     },
     {
       "id": 12,
-      "questionLabel": "What is a service in Angular, and when should you use it?"
+      "questionLabel": "What is a service in Angular, and when should you use it?",
+      "category": "ANGULAR"
     },
     {
       "id": 13,
-      "questionLabel": "What is the purpose of the ngFor directive in Angular?"
+      "questionLabel": "What is the purpose of the ngFor directive in Angular?",
+      "category": "ANGULAR"
     },
     {
       "id": 14,
-      "questionLabel": "Explain the concept of modules in Angular and their role in organizing an application."
+      "questionLabel": "Explain the concept of modules in Angular and their role in organizing an application.",
+      "category": "ANGULAR"
     },
     {
       "id": 15,
-      "questionLabel": "What is Angular CLI's ng serve command used for?"
+      "questionLabel": "What is Angular CLI's ng serve command used for?",
+      "category": "ANGULAR"
     },
     {
       "id": 16,
-      "questionLabel": "What is Angular's two-way data binding, and how does it work?"
+      "questionLabel": "What is Angular's two-way data binding, and how does it work?",
+      "category": "ANGULAR"
     },
     {
       "id": 17,
-      "questionLabel": "What is Angular's trackBy function, and why is it used with ngFor?"
+      "questionLabel": "What is Angular's trackBy function, and why is it used with ngFor?",
+      "category": "ANGULAR"
     },
     {
       "id": 18,
-      "questionLabel": "How can you handle HTTP requests in Angular?"
+      "questionLabel": "How can you handle HTTP requests in Angular?",
+      "category": "ANGULAR"
     },
     {
       "id": 19,
-      "questionLabel": "What are Angular pipes, and can you give some examples of built-in pipes?"
+      "questionLabel": "What are Angular pipes, and can you give some examples of built-in pipes?",
+      "category": "ANGULAR"
     },
     {
       "id": 20,
-      "questionLabel": "Explain the concept of lazy loading in Angular and when it's beneficial."
+      "questionLabel": "Explain the concept of lazy loading in Angular and when it's beneficial.",
+      "category": "ANGULAR"
+    },
+    {
+      "id": 21,
+      "questionLabel": "What does the <!DOCTYPE html> declaration specify?",
+      "category": "HTML"
+    },
+    {
+      "id": 22,
+      "questionLabel": "What is the purpose of the <meta charset=\"UTF-8\"> tag?",
+      "category": "HTML"
+    },
+    {
+      "id": 23,
+      "questionLabel": "Which semantic element best represents the main content of a page?",
+      "category": "HTML"
+    },
+    {
+      "id": 24,
+      "questionLabel": "How do you make a link open in a new browser tab?",
+      "category": "HTML"
+    },
+    {
+      "id": 25,
+      "questionLabel": "What is the difference between an id and a class attribute in HTML?",
+      "category": "HTML"
+    },
+    {
+      "id": 26,
+      "questionLabel": "What does the CSS box model consist of?",
+      "category": "CSS"
+    },
+    {
+      "id": 27,
+      "questionLabel": "Which selector has higher specificity in CSS?",
+      "category": "CSS"
+    },
+    {
+      "id": 28,
+      "questionLabel": "What does display: flex do?",
+      "category": "CSS"
+    },
+    {
+      "id": 29,
+      "questionLabel": "How do you write a media query for screens narrower than 600px?",
+      "category": "CSS"
+    },
+    {
+      "id": 30,
+      "questionLabel": "What is the difference between position: relative and position: absolute?",
+      "category": "CSS"
+    },
+    {
+      "id": 31,
+      "questionLabel": "What is the difference between var, let, and const in JavaScript?",
+      "category": "JAVASCRIPT"
+    },
+    {
+      "id": 32,
+      "questionLabel": "What is a closure in JavaScript?",
+      "category": "JAVASCRIPT"
+    },
+    {
+      "id": 33,
+      "questionLabel": "What does the === operator do in JavaScript?",
+      "category": "JAVASCRIPT"
+    },
+    {
+      "id": 34,
+      "questionLabel": "How does 'this' behave in arrow functions?",
+      "category": "JAVASCRIPT"
+    },
+    {
+      "id": 35,
+      "questionLabel": "What is a common way to handle asynchronous code sequentially in JavaScript?",
+      "category": "JAVASCRIPT"
     }
   ],
   "answers": [
@@ -481,6 +576,306 @@
       "questionId": 20,
       "answerLabel": "Lazy loading in Angular is a technique for defining routes.",
       "isCorrect": false
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "It declares the document type and that the page uses HTML5.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "It links an external CSS file.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "It enables JavaScript strict mode.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "It sets the viewport for responsive design.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "It sets the character encoding of the document to UTF-8.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "It specifies the default language as English.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "It imports a web font.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "It defines the viewport width.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "<main>",
+      "isCorrect": true
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "<section>",
+      "isCorrect": false
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "<article>",
+      "isCorrect": false
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "<aside>",
+      "isCorrect": false
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "Add target=\"_blank\" to the anchor tag.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "Add rel=\"noopener\" to the anchor tag only.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "Use href=\"#\" on the link.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "Wrap the link in a <nav> element.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "An id must be unique on a page; a class can be reused on multiple elements.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "An id applies styles; a class is only for JavaScript.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "A class must be unique; an id can be reused.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "There is no difference between id and class.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "Content, padding, border, and margin.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "Only content and margin.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "Padding and background only.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "Border and outline only.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "An ID selector (e.g., #header).",
+      "isCorrect": true
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "A class selector (e.g., .btn).",
+      "isCorrect": false
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "An element selector (e.g., div).",
+      "isCorrect": false
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "The universal selector (*).",
+      "isCorrect": false
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "It turns the element into a flex container, enabling flexible layout of its children.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "It hides the element from the layout.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "It makes the element inline.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "It positions the element absolutely.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "@media (max-width: 600px) { /* rules */ }",
+      "isCorrect": true
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "@media screen and (min-width: 600px) { /* rules */ }",
+      "isCorrect": false
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "@supports (max-width: 600px) { /* rules */ }",
+      "isCorrect": false
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "@container (max-width: 600px) { /* rules */ }",
+      "isCorrect": false
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "Relative offsets an element from its normal position; absolute removes it from the flow and positions it relative to the nearest positioned ancestor.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "Relative positions an element to the viewport; absolute positions it relative to the document.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "Relative fixes an element; absolute makes it static.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "They are exactly the same.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "var is function-scoped and hoisted; let/const are block-scoped; const cannot be reassigned.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "var and let are the same; const is for objects only.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "let is function-scoped; var is block-scoped.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "const variables can be reassigned.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 32,
+      "answerLabel": "A closure is a function that retains access to its lexical scope even when executed outside that scope.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 32,
+      "answerLabel": "A closure is a method that closes the browser window.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 32,
+      "answerLabel": "A closure is a block of CSS rules.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 32,
+      "answerLabel": "A closure is a JSON object with functions.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 33,
+      "answerLabel": "It compares two values for equality without type coercion (strict equality).",
+      "isCorrect": true
+    },
+    {
+      "questionId": 33,
+      "answerLabel": "It performs assignment.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 33,
+      "answerLabel": "It compares after converting both values to strings.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 33,
+      "answerLabel": "It compares and does type coercion (loose equality).",
+      "isCorrect": false
+    },
+    {
+      "questionId": 34,
+      "answerLabel": "Arrow functions do not have their own this; they capture this from the enclosing lexical scope.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 34,
+      "answerLabel": "Arrow functions always bind this to the global object.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 34,
+      "answerLabel": "Arrow functions use this based on how they are called.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 34,
+      "answerLabel": "Arrow functions set this to undefined always.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "By using Promises with async/await to await each step.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "By using setTimeout with zero delay for each step.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "By blocking the main thread until each request finishes.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "By converting asynchronous code to synchronous with alert().",
+      "isCorrect": false
     }
   ],
   "users": [
@@ -493,6 +888,24 @@
       "id": "b99e",
       "username": "toto",
       "password": "toto"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "ANGULAR"
+    },
+    {
+      "id": 2,
+      "name": "HTML"
+    },
+    {
+      "id": 3,
+      "name": "CSS"
+    },
+    {
+      "id": 4,
+      "name": "JAVASCRIPT"
     }
   ]
 }
