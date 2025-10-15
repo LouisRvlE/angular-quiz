@@ -1,8 +1,11 @@
 # AngularQuiz
 
+Project done by Louis Réville.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 19.2.17.
 
 ## Migration History
+
 - **Angular 16.1.7** → **Angular 19.2.17** (Migration completed successfully)
 - **TypeScript**: 5.8.3 (compatible with Angular 19)
 - **RxJS**: 7.8.2
