@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { QuizService } from '../shared/services/quiz.service';
+import { AuthService } from '../auth/auth.service';
 
 @Component({
   selector: 'app-quiz',
@@ -11,12 +12,12 @@ import { QuizService } from '../shared/services/quiz.service';
 export class QuizComponent implements OnInit {
   isQuizFinished = this.quizService.isQuizFinished;
   categoryName = '';
-  playerName = '';
 
   constructor(
     private quizService: QuizService,
     private router: Router,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private authService: AuthService
   ) {}
 
   ngOnInit(): void {
@@ -24,6 +25,10 @@ export class QuizComponent implements OnInit {
       this.quizService.categoryName = params['categoryName'];
       this.categoryName = this.quizService.categoryName;
     });
+  }
+
+  get name() {
+    return this.authService.user?.username || 'Anonyme';
   }
 
   goToResultPage() {
