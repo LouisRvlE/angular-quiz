@@ -7,7 +7,6 @@ import { AuthService } from 'src/app/auth/auth.service';
 })
 export class QuizService {
   quizContent: any[] = [];
-  categories: any[] = [];
   playerAnswers: { questionId: number; answer: string }[] = [];
   score = 0;
   isQuizFinished = false;
@@ -63,17 +62,6 @@ export class QuizService {
                 category: question.category,
               });
             });
-        }
-      });
-  }
-
-  getCategories() {
-    if (this.categories.length > 0) return;
-    this.http
-      .get('http://localhost:3001/categories')
-      .subscribe((categories: any) => {
-        for (const category of categories) {
-          this.categories.push(category);
         }
       });
   }
