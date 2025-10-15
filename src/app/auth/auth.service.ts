@@ -10,12 +10,12 @@ export class AuthService {
   constructor(private http: HttpClient) {}
 
   addUser(user: { username: string; password: string }) {
-    return this.http.post('http://localhost:3001/users', user).subscribe();
+    return this.http.post('http://localhost:3000/users', user).subscribe();
   }
 
   login(user: { username: string; password: string }) {
     return this.http.get(
-      'http://localhost:3001/users?username=' +
+      'http://localhost:3000/users?username=' +
         user.username +
         '&password=' +
         user.password
@@ -50,7 +50,7 @@ export class AuthService {
 
   private getSavedUserInfo() {
     return this.http.get(
-      'http://localhost:3001/users?id=' + this.getSavedUser()
+      'http://localhost:3000/users?id=' + this.getSavedUser()
     );
   }
 }

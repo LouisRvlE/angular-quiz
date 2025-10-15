@@ -49,11 +49,11 @@ export class QuizService {
   getQuizContent() {
     if (this.quizContent.length > 0) return;
     this.http
-      .get('http://localhost:3001/questions')
+      .get('http://localhost:3000/questions')
       .subscribe((questions: any) => {
         for (const question of questions) {
           this.http
-            .get(`http://localhost:3001/answers?questionId=${question.id}`)
+            .get(`http://localhost:3000/answers?questionId=${question.id}`)
             .subscribe((answers: any) => {
               this.quizContent.push({
                 id: question.id,

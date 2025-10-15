@@ -13,7 +13,7 @@ export class CategoriesService {
   getCategories() {
     if (this.categories.length > 0) return;
     this.http
-      .get('http://localhost:3001/categories')
+      .get('http://localhost:3000/categories')
       .subscribe((categories: any) => {
         for (const category of categories) {
           this.categories.push(category);
