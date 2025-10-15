@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { QuizService } from '../shared/services/quiz.service';
 import { FormControl } from '@angular/forms';
 import { Router } from '@angular/router';
+import { CategoriesService } from '../shared/services/categories.service';
 
 @Component({
   selector: 'app-categories',
@@ -10,15 +11,19 @@ import { Router } from '@angular/router';
   standalone: false,
 })
 export class CategoriesComponent implements OnInit {
-  categories: any[] = this.quizService.categories;
-  filteredCategories: any[] = this.quizService.categories;
+  categories: any[] = this.categoriesService.categories;
+  filteredCategories: any[] = this.categoriesService.categories;
   searchControl = new FormControl('');
   searchTerm: string = '';
 
-  constructor(private quizService: QuizService, private router: Router) {}
+  constructor(
+    private quizService: QuizService,
+    private categoriesService: CategoriesService,
+    private router: Router
+  ) {}
 
   ngOnInit(): void {
-    this.quizService.getCategories();
+    this.categoriesService.getCategories();
 
     this.searchControl.valueChanges.subscribe((value) => {
       this.searchTerm = value ?? '';
