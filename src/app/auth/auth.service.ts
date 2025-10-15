@@ -1,20 +1,25 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from "@angular/common/http";
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class AuthService {
-  user: { id: number; username: string; } | undefined;
+  user: { id: number; username: string } | undefined;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
-  addUser(user: { username: string; password: string; }) {
-    return this.http.post('http://localhost:3000/users', user).subscribe();
+  addUser(user: { username: string; password: string }) {
+    return this.http.post('http://localhost:3001/users', user).subscribe();
   }
 
-  login(user: { username: string; password: string; }) {
-    return this.http.get('http://localhost:3000/users?username=' + user.username + '&password=' + user.password);
+  login(user: { username: string; password: string }) {
+    return this.http.get(
+      'http://localhost:3001/users?username=' +
+        user.username +
+        '&password=' +
+        user.password
+    );
   }
 
   logout() {
@@ -44,6 +49,8 @@ export class AuthService {
   }
 
   private getSavedUserInfo() {
-    return this.http.get('http://localhost:3000/users?id=' + this.getSavedUser());
+    return this.http.get(
+      'http://localhost:3001/users?id=' + this.getSavedUser()
+    );
   }
 }
